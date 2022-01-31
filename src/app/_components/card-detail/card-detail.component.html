@@ -1,0 +1,64 @@
+<div mdbModal #detailModal="mdbModal"
+  class="modal fade" tabindex="-1" role="dialog"
+  aria-labelledby="detailModalLabel" aria-hidden="true">
+  <div *ngIf="card" class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <!-- Header -->
+      <div class="modal-header">
+        <h4 class="modal-title" id="detailModalLabel">Card Details</h4>
+        <button type="button" class="close" aria-label="Close" (click)="detailModal.hide()">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <!-- Body -->
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <figure class="figure">
+              <img class="fullcard figure-img" alt="{{card.name}}" src="assets/cards/{{card.file_name}}.png" />
+              <figcaption *ngIf="card.artist" class="figure-caption">Artist: {{card.artist}}</figcaption>
+            </figure>
+          </div>
+          <div class="col-md-6">
+            <h5> Profile </h5>
+            <table class="table">
+              <tbody>
+                <tr>
+                  <td scope="row">Name</td>
+                  <td>{{card.name}}</td>
+                </tr>
+                <tr>
+                  <td scope="row">Type</td>
+                  <td>{{card.card_type}}</td>
+                </tr>
+                <tr>
+                  <td scope="row">Rarity</td>
+                  <td> {{card.rarity.name}} </td>
+                </tr>
+                <tr *ngIf="card.text">
+                  <td scope="row">Text</td>
+                  <td> {{card.text}} </td>
+                </tr>
+                <tr>
+                  <td scope="row">Price</td>
+                  <td> {{card.market_infos?.lowest_price || 'N/A'}} </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <!-- Footer -->
+      <div class="modal-footer">
+        <button mdbBtn mdbWavesEffect (click)="getCardPrice(card)"
+          color="deep-purple" class="relative waves-light" type="button">
+          Get card price
+        </button>
+        <button mdbBtn mdbWavesEffect (click)="detailModal.hide()"
+          color="grey" class="waves-light" type="button">
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

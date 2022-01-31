@@ -1,0 +1,27 @@
+<mdb-navbar SideClass="navbar fixed-top navbar-expand-lg navbar-dark deep-purple">
+  <mdb-navbar-brand>
+    <a class="navbar-brand" routerLink="/">
+      <img class="align-top" src="assets/angular-logo-purple.png" height="30" alt="">
+      Artifactular
+    </a>
+  </mdb-navbar-brand>
+  <links>
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a mdbWavesEffect class="nav-link waves-light" routerLink="/simulator">Simulator</a>
+      </li>
+      <li class="nav-item">
+        <a mdbWavesEffect class="nav-link waves-light" routerLink="/cards">Cards</a>
+      </li>
+    </ul>
+    <form class="form-inline">
+      <div class="md-form my-0 active-teal">
+        <input mdbInputDirective #cardSearch (input)="search(cardSearch.value)"
+          class="form-control mr-sm-2" type="search" placeholder="Search" />
+        <i class="fa fa-search" aria-hidden="true"></i>
+      </div>
+    </form>
+  </links>
+</mdb-navbar>
+
+<router-outlet></router-outlet>

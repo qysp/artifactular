@@ -1,0 +1,49 @@
+<div class="jumbotron">
+  <div class="container">
+    <div *ngIf="cardSets.length" class="card-set">
+      <div *ngFor="let cardSet of cardSets" class="row">
+
+        <div class="col-lg-12">
+          <table mdbTable class="fold-table">
+            <thead>
+              <tr>
+                <th scope="col">
+                </th>
+                <th scope="col">
+                Card set name
+                </th>
+                <th scope="col">
+                Release date
+                </th>
+                <th scope="col">
+                Amount of cards
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="view" (click)="openFolded($event)">
+                <td scope="row"> <i class="fa fa-chevron-up"></i> </td>
+                <td> {{cardSet.name}} </td>
+                <td> {{cardSet.release_date | date}} </td>
+                <td> {{cardSet.cards.length}} </td>
+              </tr>
+              <tr class="fold">
+                <td colspan="4" *ngIf="cardSet.cards.length">
+                  <div class="row" *ngIf="cardSet.cards">
+                    <div class="col-md-2 text-center" *ngFor="let card of cardSet.cards">
+                      <img (click)="onClick(card)"
+                        class="img-fluid fullcard" alt="{{card.name}}"
+                        src="assets/cards/{{card.file_name}}.png" />
+                    </div>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<app-card-detail #cardDetailComponent></app-card-detail>

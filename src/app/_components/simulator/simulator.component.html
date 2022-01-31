@@ -1,0 +1,29 @@
+<div class="jumbotron">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-12 text-center sim">
+        <div class="btn-group" role="group" aria-label="Card set names">
+          <button mdbBtn mdbWavesEffect color="teal"
+            *ngFor="let cardSet of cardSets"
+            (click)="getCardPack(cardSet.id)"
+            class="waves-light" type="button">
+            {{cardSet.name}}
+          </button>
+        </div> <!--btn-group-->
+      </div> <!--col-md-12-->
+    </div> <!--row-->
+
+    <div *ngIf="cardPack.cards" class="row cardPack">
+      <div *ngFor="let card of cardPack.cards" class="col-md-2">
+        <img (mouseover)="revealCard($event, card)"
+          (click)="onClick(card)"
+          class="fullcard img-fluid z-depth-1"
+          src="assets/cardback.png" />
+      </div> <!--col-md-2-->
+    </div> <!--row-->
+
+  </div> <!--container-->
+</div> <!--jumbotron-->
+
+<app-card-detail #cardDetailComponent></app-card-detail>

@@ -1,0 +1,958 @@
+{
+  "card_sets": [
+    {
+      "set_id": 1,
+      "set_name": "Call To Arms",
+      "hash_names": [
+        {
+          "name": "Venomancer",
+          "hash": 110001
+        },
+        {
+          "name": "Meepo",
+          "hash": 110004
+        },
+        {
+          "name": "Luna",
+          "hash": 110006
+        },
+        {
+          "name": "Winter Wyvern",
+          "hash": 110010
+        },
+        {
+          "name": "Lycan",
+          "hash": 110014
+        },
+        {
+          "name": "Abaddon",
+          "hash": 110016
+        },
+        {
+          "name": "Chen",
+          "hash": 110017
+        },
+        {
+          "name": "Bloodseeker",
+          "hash": 110018
+        },
+        {
+          "name": "Axe",
+          "hash": 110020
+        },
+        {
+          "name": "Centaur Warrunner",
+          "hash": 110021
+        },
+        {
+          "name": "Timbersaw",
+          "hash": 110022
+        },
+        {
+          "name": "Bounty Hunter",
+          "hash": 110023
+        },
+        {
+          "name": "Tidehunter",
+          "hash": 110024
+        },
+        {
+          "name": "Tinker",
+          "hash": 110025
+        },
+        {
+          "name": "Rix",
+          "hash": 110026
+        },
+        {
+          "name": "Viper",
+          "hash": 110028
+        },
+        {
+          "name": "Beastmaster",
+          "hash": 110029
+        },
+        {
+          "name": "Bristleback",
+          "hash": 110030
+        },
+        {
+          "name": "Kanna",
+          "hash": 110031
+        },
+        {
+          "name": "Drow Ranger",
+          "hash": 110032
+        },
+        {
+          "name": "Earthshaker",
+          "hash": 110033
+        },
+        {
+          "name": "Enchantress",
+          "hash": 110036
+        },
+        {
+          "name": "Lich",
+          "hash": 110038
+        },
+        {
+          "name": "Ogre Magi",
+          "hash": 110043
+        },
+        {
+          "name": "Omniknight",
+          "hash": 110044
+        },
+        {
+          "name": "Outworld Devourer",
+          "hash": 110046
+        },
+        {
+          "name": "Phantom Assassin",
+          "hash": 110047
+        },
+        {
+          "name": "Pugna",
+          "hash": 110048
+        },
+        {
+          "name": "Sniper",
+          "hash": 110050
+        },
+        {
+          "name": "Mazzie",
+          "hash": 110052
+        },
+        {
+          "name": "Prellex",
+          "hash": 110053
+        },
+        {
+          "name": "Sven",
+          "hash": 110054
+        },
+        {
+          "name": "Treant Protector",
+          "hash": 110056
+        },
+        {
+          "name": "Sorla Khan",
+          "hash": 110058
+        },
+        {
+          "name": "Necrophos",
+          "hash": 110059
+        },
+        {
+          "name": "Lion",
+          "hash": 110060
+        },
+        {
+          "name": "Skywrath Mage",
+          "hash": 110062
+        },
+        {
+          "name": "Crystal Maiden",
+          "hash": 110064
+        },
+        {
+          "name": "Zeus",
+          "hash": 110065
+        },
+        {
+          "name": "Magnus",
+          "hash": 110067
+        },
+        {
+          "name": "Dark Seer",
+          "hash": 110068
+        },
+        {
+          "name": "Legion Commander",
+          "hash": 110069
+        },
+        {
+          "name": "Ursa",
+          "hash": 110070
+        },
+        {
+          "name": "Smeevil Armsmaster",
+          "hash": 110076
+        },
+        {
+          "name": "Sister of the Veil",
+          "hash": 110077
+        },
+        {
+          "name": "Tyler Estate Censor",
+          "hash": 110078
+        },
+        {
+          "name": "Smeevil Blacksmith",
+          "hash": 110079
+        },
+        {
+          "name": "Rebel Decoy",
+          "hash": 110080
+        },
+        {
+          "name": "Pit Fighter of Quoidge",
+          "hash": 110083
+        },
+        {
+          "name": "Rebel Instigator",
+          "hash": 110084
+        },
+        {
+          "name": "Assassin's Shadow",
+          "hash": 110085
+        },
+        {
+          "name": "Disciple of Nevermore",
+          "hash": 110086
+        },
+        {
+          "name": "Legion Standard Bearer",
+          "hash": 110087
+        },
+        {
+          "name": "Relentless Zombie",
+          "hash": 110090
+        },
+        {
+          "name": "Revtel Convoy",
+          "hash": 110091
+        },
+        {
+          "name": "Oglodi Vandal",
+          "hash": 110092
+        },
+        {
+          "name": "Mercenary Exiles",
+          "hash": 110094
+        },
+        {
+          "name": "Keenfolk Golem",
+          "hash": 110095
+        },
+        {
+          "name": "Emissary of the Quorum",
+          "hash": 110096
+        },
+        {
+          "name": "Marrowfell Brawler",
+          "hash": 110097
+        },
+        {
+          "name": "Thunderhide Pack",
+          "hash": 110102
+        },
+        {
+          "name": "Ogre Corpse Tosser",
+          "hash": 110103
+        },
+        {
+          "name": "Bronze Legionnaire",
+          "hash": 110104
+        },
+        {
+          "name": "Incarnation of Selemene",
+          "hash": 110106
+        },
+        {
+          "name": "Vhoul Martyr",
+          "hash": 110107
+        },
+        {
+          "name": "Thunderhide Alpha",
+          "hash": 110108
+        },
+        {
+          "name": "Satyr Duelist",
+          "hash": 110111
+        },
+        {
+          "name": "Rampaging Hellbear",
+          "hash": 110113
+        },
+        {
+          "name": "Cursed Satyr",
+          "hash": 110114
+        },
+        {
+          "name": "Ravenhook",
+          "hash": 110115
+        },
+        {
+          "name": "Ravenous Mass",
+          "hash": 110116
+        },
+        {
+          "name": "Hellbear Crippler",
+          "hash": 110118
+        },
+        {
+          "name": "Selfish Cleric",
+          "hash": 110119
+        },
+        {
+          "name": "Ogre Conscript",
+          "hash": 110127
+        },
+        {
+          "name": "Untested Grunt",
+          "hash": 110128
+        },
+        {
+          "name": "Assassin's Apprentice",
+          "hash": 110129
+        },
+        {
+          "name": "Stonehall Elite",
+          "hash": 110131
+        },
+        {
+          "name": "Red Mist Pillager",
+          "hash": 110132
+        },
+        {
+          "name": "Champion of the Ancient",
+          "hash": 110133
+        },
+        {
+          "name": "Roseleaf Rejuvenator",
+          "hash": 110134
+        },
+        {
+          "name": "Satyr Magician",
+          "hash": 110137
+        },
+        {
+          "name": "Troll Soothsayer",
+          "hash": 110138
+        },
+        {
+          "name": "Assured Destruction",
+          "hash": 110141
+        },
+        {
+          "name": "Corrosive Mist",
+          "hash": 110142
+        },
+        {
+          "name": "Fractured Timeline",
+          "hash": 110148
+        },
+        {
+          "name": "Unearthed Secrets",
+          "hash": 110149
+        },
+        {
+          "name": "Path of the Cunning",
+          "hash": 110150
+        },
+        {
+          "name": "Path of the Wise",
+          "hash": 110151
+        },
+        {
+          "name": "Path of the Dreamer",
+          "hash": 110152
+        },
+        {
+          "name": "Path of the Bold",
+          "hash": 110153
+        },
+        {
+          "name": "The Tyler Estate",
+          "hash": 110154
+        },
+        {
+          "name": "Homefield Advantage",
+          "hash": 110155
+        },
+        {
+          "name": "Bitter Enemies",
+          "hash": 110156
+        },
+        {
+          "name": "Conflagration",
+          "hash": 110157
+        },
+        {
+          "name": "Trebuchets",
+          "hash": 110161
+        },
+        {
+          "name": "Unsupervised Artillery",
+          "hash": 110162
+        },
+        {
+          "name": "Revtel Investments",
+          "hash": 110164
+        },
+        {
+          "name": "Iron Fog Goldmine",
+          "hash": 110165
+        },
+        {
+          "name": "Selemene's Favor",
+          "hash": 110168
+        },
+        {
+          "name": "Mist of Avernus",
+          "hash": 110169
+        },
+        {
+          "name": "Altar of the Mad Moon",
+          "hash": 110170
+        },
+        {
+          "name": "Howling Mind",
+          "hash": 110171
+        },
+        {
+          "name": "Temple of War",
+          "hash": 110172
+        },
+        {
+          "name": "Burning Oil",
+          "hash": 110174
+        },
+        {
+          "name": "Aghanim's Sanctum",
+          "hash": 110175
+        },
+        {
+          "name": "Escape Route",
+          "hash": 110176
+        },
+        {
+          "name": "Grand Melee",
+          "hash": 110178
+        },
+        {
+          "name": "Messenger Rookery",
+          "hash": 110180
+        },
+        {
+          "name": "Cheating Death",
+          "hash": 110181
+        },
+        {
+          "name": "The Oath",
+          "hash": 110182
+        },
+        {
+          "name": "The Omexe Arena",
+          "hash": 110183
+        },
+        {
+          "name": "Keenfolk Turret",
+          "hash": 110184
+        },
+        {
+          "name": "Steam Cannon",
+          "hash": 110185
+        },
+        {
+          "name": "Glyph of Confusion",
+          "hash": 110187
+        },
+        {
+          "name": "Routed",
+          "hash": 110191
+        },
+        {
+          "name": "Rumusque Blessing",
+          "hash": 110192
+        },
+        {
+          "name": "Watchtower",
+          "hash": 110194
+        },
+        {
+          "name": "...And One For Me",
+          "hash": 110196
+        },
+        {
+          "name": "Rolling Storm",
+          "hash": 110198
+        },
+        {
+          "name": "Assassin's Veil",
+          "hash": 110202
+        },
+        {
+          "name": "Phase Boots",
+          "hash": 110203
+        },
+        {
+          "name": "Stonehall Cloak",
+          "hash": 110205
+        },
+        {
+          "name": "Blink Dagger",
+          "hash": 110206
+        },
+        {
+          "name": "Revtel Signet Ring",
+          "hash": 110207
+        },
+        {
+          "name": "Barbed Mail",
+          "hash": 110208
+        },
+        {
+          "name": "Demagicking Maul",
+          "hash": 110210
+        },
+        {
+          "name": "Obliterating Orb",
+          "hash": 110211
+        },
+        {
+          "name": "Blade of the Vigil",
+          "hash": 110212
+        },
+        {
+          "name": "Fur-lined Mantle",
+          "hash": 110213
+        },
+        {
+          "name": "Chainmail",
+          "hash": 110214
+        },
+        {
+          "name": "Broadsword",
+          "hash": 110215
+        },
+        {
+          "name": "Golden Ticket",
+          "hash": 110216
+        },
+        {
+          "name": "Rumusque Vestments",
+          "hash": 110217
+        },
+        {
+          "name": "Keenfolk Musket",
+          "hash": 110218
+        },
+        {
+          "name": "Ring of Tarrasque",
+          "hash": 110220
+        },
+        {
+          "name": "Bracers of Sacrifice",
+          "hash": 110222
+        },
+        {
+          "name": "Red Mist Maul",
+          "hash": 110223
+        },
+        {
+          "name": "Helm of the Dominator",
+          "hash": 110224
+        },
+        {
+          "name": "Vesture of the Tyrant",
+          "hash": 110225
+        },
+        {
+          "name": "Wingfall Hammer",
+          "hash": 110226
+        },
+        {
+          "name": "Ristul Emblem",
+          "hash": 110230
+        },
+        {
+          "name": "Cloak of Endless Carnage",
+          "hash": 110231
+        },
+        {
+          "name": "Seraphim Shield",
+          "hash": 110232
+        },
+        {
+          "name": "Poaching Knife",
+          "hash": 110234
+        },
+        {
+          "name": "Book of the Dead",
+          "hash": 110235
+        },
+        {
+          "name": "Hero's Cape",
+          "hash": 110236
+        },
+        {
+          "name": "Platemail",
+          "hash": 110237
+        },
+        {
+          "name": "Claymore",
+          "hash": 110238
+        },
+        {
+          "name": "Claszureme Hourglass",
+          "hash": 110241
+        },
+        {
+          "name": "Shield of Basilius",
+          "hash": 110242
+        },
+        {
+          "name": "Shield of Aquila",
+          "hash": 110243
+        },
+        {
+          "name": "Shiva's Guard",
+          "hash": 110248
+        },
+        {
+          "name": "Stonehall Pike",
+          "hash": 110252
+        },
+        {
+          "name": "Stonehall Plate",
+          "hash": 110253
+        },
+        {
+          "name": "Shop Deed",
+          "hash": 110255
+        },
+        {
+          "name": "Jasper Daggers",
+          "hash": 110256
+        },
+        {
+          "name": "Keenfolk Plate",
+          "hash": 110259
+        },
+        {
+          "name": "Nyctasha's Guard",
+          "hash": 110262
+        },
+        {
+          "name": "Apotheosis Blade",
+          "hash": 110263
+        },
+        {
+          "name": "Lodestone Demolition",
+          "hash": 110268
+        },
+        {
+          "name": "Grazing Shot",
+          "hash": 110270
+        },
+        {
+          "name": "Hip Fire",
+          "hash": 110273
+        },
+        {
+          "name": "Arcane Censure",
+          "hash": 110295
+        },
+        {
+          "name": "Defensive Stance",
+          "hash": 110297
+        },
+        {
+          "name": "Lost in Time",
+          "hash": 110298
+        },
+        {
+          "name": "Defend the Weak",
+          "hash": 110299
+        },
+        {
+          "name": "Combat Training",
+          "hash": 110300
+        },
+        {
+          "name": "Self Sabotage",
+          "hash": 110302
+        },
+        {
+          "name": "Bellow",
+          "hash": 110303
+        },
+        {
+          "name": "Raze",
+          "hash": 110305
+        },
+        {
+          "name": "Smash Their Defenses!",
+          "hash": 110306
+        },
+        {
+          "name": "Foresight",
+          "hash": 110307
+        },
+        {
+          "name": "Oglodi Catapult",
+          "hash": 110310
+        },
+        {
+          "name": "Arm the Rebellion",
+          "hash": 110311
+        },
+        {
+          "name": "Strafing Run",
+          "hash": 110312
+        },
+        {
+          "name": "Poised to Strike",
+          "hash": 110313
+        },
+        {
+          "name": "Dirty Deeds",
+          "hash": 110314
+        },
+        {
+          "name": "Annihilation",
+          "hash": 110315
+        },
+        {
+          "name": "Spot Weakness",
+          "hash": 110316
+        },
+        {
+          "name": "Curse of Atrophy",
+          "hash": 110317
+        },
+        {
+          "name": "Diabolic Revelation",
+          "hash": 110319
+        },
+        {
+          "name": "Payday",
+          "hash": 110322
+        },
+        {
+          "name": "Iron Branch Protection",
+          "hash": 110324
+        },
+        {
+          "name": "Enough Magic!",
+          "hash": 110326
+        },
+        {
+          "name": "Heroic Resolve",
+          "hash": 110327
+        },
+        {
+          "name": "Gank",
+          "hash": 110328
+        },
+        {
+          "name": "Wrath of Gold",
+          "hash": 110331
+        },
+        {
+          "name": "Murder Plot",
+          "hash": 110332
+        },
+        {
+          "name": "Stars Align",
+          "hash": 110334
+        },
+        {
+          "name": "Call the Reserves",
+          "hash": 110335
+        },
+        {
+          "name": "Better Late Than Never",
+          "hash": 110336
+        },
+        {
+          "name": "Divine Intervention",
+          "hash": 110338
+        },
+        {
+          "name": "Pick a Fight",
+          "hash": 110342
+        },
+        {
+          "name": "Clear the Deck",
+          "hash": 110344
+        },
+        {
+          "name": "Defensive Bloom",
+          "hash": 110347
+        },
+        {
+          "name": "Rising Anger",
+          "hash": 110349
+        },
+        {
+          "name": "Sucker Punch",
+          "hash": 110350
+        },
+        {
+          "name": "Lightning Strike",
+          "hash": 110352
+        },
+        {
+          "name": "Bolt of Damocles",
+          "hash": 110353
+        },
+        {
+          "name": "Pick Off",
+          "hash": 110354
+        },
+        {
+          "name": "Dimensional Portal",
+          "hash": 110355
+        },
+        {
+          "name": "Restoration Effort",
+          "hash": 110358
+        },
+        {
+          "name": "Buying Time",
+          "hash": 110359
+        },
+        {
+          "name": "Friendly Fire",
+          "hash": 110360
+        },
+        {
+          "name": "Coordinated Assault",
+          "hash": 110361
+        },
+        {
+          "name": "Juke",
+          "hash": 110365
+        },
+        {
+          "name": "New Orders",
+          "hash": 110366
+        },
+        {
+          "name": "Rend Armor",
+          "hash": 110367
+        },
+        {
+          "name": "Avernus' Blessing",
+          "hash": 110368
+        },
+        {
+          "name": "Fight Through the Pain",
+          "hash": 110370
+        },
+        {
+          "name": "Soul of Spring",
+          "hash": 110373
+        },
+        {
+          "name": "Arcane Assault",
+          "hash": 110374
+        },
+        {
+          "name": "Remote Detonation",
+          "hash": 110376
+        },
+        {
+          "name": "Fog of War",
+          "hash": 110377
+        },
+        {
+          "name": "Divine Purpose",
+          "hash": 110378
+        },
+        {
+          "name": "Intimidation",
+          "hash": 110379
+        },
+        {
+          "name": "Cleansing Rite",
+          "hash": 110382
+        },
+        {
+          "name": "Tresdin's Standards",
+          "hash": 110385
+        },
+        {
+          "name": "Compel",
+          "hash": 110391
+        },
+        {
+          "name": "Caught Unprepared",
+          "hash": 110396
+        },
+        {
+          "name": "Relentless Pursuit",
+          "hash": 110399
+        },
+        {
+          "name": "Tower Barrage",
+          "hash": 110402
+        },
+        {
+          "name": "Steal Strength",
+          "hash": 110403
+        },
+        {
+          "name": "The Cover of Night",
+          "hash": 110404
+        },
+        {
+          "name": "Slay",
+          "hash": 110410
+        },
+        {
+          "name": "Cunning Plan",
+          "hash": 110411
+        },
+        {
+          "name": "Thunderstorm",
+          "hash": 110412
+        },
+        {
+          "name": "Forward Charge",
+          "hash": 110413
+        },
+        {
+          "name": "Collateral Damage",
+          "hash": 110415
+        },
+        {
+          "name": "Spring the Trap",
+          "hash": 110417
+        },
+        {
+          "name": "Ventriloquy",
+          "hash": 110418
+        },
+        {
+          "name": "Crippling Blow",
+          "hash": 110421
+        },
+        {
+          "name": "Whispers of Madness",
+          "hash": 110422
+        },
+        {
+          "name": "At Any Cost",
+          "hash": 110424
+        },
+        {
+          "name": "Time of Triumph",
+          "hash": 110425
+        },
+        {
+          "name": "Storm Spirit",
+          "hash": 110536
+        },
+        {
+          "name": "Horn of the Alpha",
+          "hash": 110260
+        }
+      ]
+    }
+  ]
+}

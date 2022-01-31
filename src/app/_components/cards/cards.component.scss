@@ -1,0 +1,57 @@
+.jumbotron {
+  box-shadow: none;
+  background-color: #0e0e0e;
+}
+
+.card-set {
+  margin-bottom: 20px;
+}
+
+.fullcard {
+  width: 80%;
+  height: 90%;
+  margin-bottom: 10px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+table.fold-table {
+  > thead > tr > th, td {
+    border: none;
+  }
+  > tbody {
+    > tr.view {
+      td, th {
+        cursor: pointer;
+      }
+      td:first-child,
+      th:first-child {
+        position: relative;
+        padding-left: 20px;
+      }
+      &:nth-child(4n-1) {
+        background-color: #eee;
+      }
+      &:hover {
+        background-color: lighten(#0e0e0e, 10%);
+        color: #009688;
+      }
+      &.open {
+        background-color: #009688;
+        color: #eee;
+        td:first-child {
+          transition: all 0.5s ease;
+          position: absolute;
+          transform: rotateX(-180deg);
+        }
+      }
+    }
+    > tr.fold {
+      display: none;
+      &.open {
+        display: table-row;
+      }
+    }
+  }
+}
